@@ -152,7 +152,7 @@ export default {
           let errorMessage = "Ops, something whent wrong. Please try again.";
           if (error.body.error.message === "The access token expired") {
             errorMessage =
-              "Spotify needs a new token. Please change the token variable in the code above. Sorry for the inconvenience. see https://developer.spotify.com/console/get-search-item/ -Eric";
+              "Spotify needs a new token. Please update the token in this file: 'src/assets/token.js'. Sorry for the inconvenience. -Eric";
           }
           window.notify({
             type: "error",
