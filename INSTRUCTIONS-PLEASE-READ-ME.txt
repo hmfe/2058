@@ -1,0 +1,8 @@
+Instructions
+
+1. I'm using the spotify api for searching artist. Please login to spotify developer and get a token key here https://developer.spotify.com/console/get-search-item
+or contact me so I can create one (it's valid for a couple of hours).
+2. Change the key in this file src/assets/token.js.
+3. Run 'npm install'
+4. Run 'npm run serve'
+5. Browse to the url displayed (probebly http://localhost:8080 )

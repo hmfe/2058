@@ -1,0 +1,12 @@
+@import "./variables";
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 1px solid $form-input-color;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
